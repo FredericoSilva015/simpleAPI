@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
-    "startTS": "nodemon build/index.js"
+    "jsStart": "nodemon index.js",
+    "tsStart": "nodemon build/index.js"
   },
   "author": "Frederico Silva",
   "license": "ISC",
