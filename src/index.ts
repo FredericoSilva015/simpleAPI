@@ -118,7 +118,7 @@ app.get('/news/:newspaperId', (req, res) => {
       res.json(specificArticles);
     })
     // better to throw error, but i do not wish to stop the code
-    .catch((err) => console.log(err));
+    .catch((err: unknown) => console.log(err));
 });
 
 app.listen(PORT, () => console.log(`Server running on PORT: ${PORT}`));
